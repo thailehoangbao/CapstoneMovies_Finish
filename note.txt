@@ -1,0 +1,9 @@
+==== Buoi 8 =====
+React RouterDom
+===== Buoi 9 =====
+- Routing Advanced
+====== buoi 13 =====
+- alias jsconfig.alias
+- scss 
+ cài : npm i sass
+-styled component

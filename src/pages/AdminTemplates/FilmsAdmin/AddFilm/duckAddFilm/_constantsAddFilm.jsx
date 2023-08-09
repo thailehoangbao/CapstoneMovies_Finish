@@ -1,0 +1,3 @@
+export const ADD_FILM_ADMIN_REQUSET = '@@addfilm/ADD_FILM_ADMIN_REQUSET';
+export const ADD_FILM_ADMIN_SUCCESS = '@@addfilm/ADD_FILM_ADMIN_SUCCESS';
+export const ADD_FILM_ADMIN_FAIL = '@@addfilm/ADD_FILM_ADMIN_FAIL';
