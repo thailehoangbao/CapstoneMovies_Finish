@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,6 +17,343 @@ code {
 }
 
 .my-active {
-  background-color: white!important;
-  color: red!important;
+  background-color: white !important;
+  color: red !important;
 }
+
+.btn {
+  background-color: #fb4226;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.img-rap {
+  width: 60px;
+  padding-bottom: 6px;
+}
+
+/* header */
+.header {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.my-active1 {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.font-white {
+  color: white !important;
+}
+
+.font-black {
+  color: black !important;
+}
+
+.navbar-brand .img {
+  width: 84px;
+  height: 70px;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 18px;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 18px;
+}
+
+.nav-2 .nav-link {
+  color: white !important;
+}
+
+.nav-2 .nav-link:hover {
+  background-color: white !important;
+  color: black !important;
+  border-radius: 5px;
+}
+
+/* footer */
+.footer {
+  background-color: #183153;
+  color: white;
+}
+
+.footer .img {
+  width: 110px;
+  height: 84px;
+}
+
+.footer .a:hover {
+  color: #fb4226 !important;
+  cursor: pointer;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.copyright {
+  font-size: 18px;
+}
+
+/* danhSach */
+.danhSach {
+  padding: 40px 0;
+}
+
+.sapChieu {
+  background-color: white !important;
+  color: #fb4226 !important;
+  border-color: #fb4226 !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.slick-dots li button::before {
+  font-size: 1rem;
+  color: rgb(72, 71, 71);
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fb4226;
+}
+
+/* phim-index.js */
+.img-fluid {
+  height: 350px !important;
+  width: 350px;
+}
+
+.card-body {
+  height: 80px !important;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* chi tiet phim - index.js */
+.chiTiet {
+  background: linear-gradient(rgb(18, 113, 160), #02294d, #89adda);
+  padding: 200px 0 100px;
+  /* background-color: #001529; */
+}
+
+.chiTiet1 {
+  position: relative;
+}
+
+.chiTiet2 {
+  top: 50%;
+  width: 100% !important;
+  z-index: 3;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+/* banner index.js */
+.image-banner {
+  width: 100%;
+}
+
+.carousel-item {
+  margin-right: 0px !important;
+}
+
+/* dang ky index.js */
+.img-dk {
+  height: 600px;
+}
+
+.dangKy {
+  background-color: wheat;
+}
+
+.dangKy1 {
+  background: rgba(131, 128, 128, 0.34);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+/* dang nhap index.js */
+.img-dn {
+  width: 450px;
+}
+
+.dangNhap {
+  background-color: wheat;
+}
+
+.dangNhap1 {
+  background: rgba(131, 128, 128, 0.34);
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.dangNhap2 {
+  position: relative;
+}
+
+.dangNhap3 {
+  top: 50%;
+  width: 90% !important;
+  z-index: 3;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+/* he thong rap index.js */
+.heThongRap {
+  padding: 150px;
+  background-color: wheat;
+}
+
+.cumRap {
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.img-cumRap {
+  width: 100px;
+  height: 126px;
+}
+
+.cumRap-right {
+  width: 555px;
+  padding: 0 20px;
+}
+
+.cumRap-right-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cumRap-item-child {
+  color: #9e9e9e;
+  width: 30%;
+  border: 1px solid #e4e4e4;
+  cursor: pointer;
+  margin: 0px 16px 16px 0px;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(246, 246, 246, 0.5);
+}
+
+/* dat ve index.js */
+.datVe {
+  background-color: black;
+  position: relative;
+}
+
+.datVe::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url('https://static.vinwonders.com/production/cgv-times-city-3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.datVe-right {
+  width: 100%;
+  box-shadow: 0 0 10px white;
+  color: white;
+}
+
+.datVe-right-item {
+  font-size: 24px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  width: 100%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 20px;
+  color: #fff;
+}
+
+.ghe {
+  border: 3px solid #d9d9d9;
+  width: 45px;
+  height: 45px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 7px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.note {
+  width: 100%;
+  margin: 20px 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.note-DaDat,
+.note-Thuong,
+.note-Vip {
+  margin: 0px 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gheDaDat {
+  border: 3px solid grey;
+  background-color: grey;
+}
+
+.gheThuong {
+  border: 3px solid #d9d9d9;
+  background-color: #d9d9d9;
+}
+
+.gheVip {
+  border: 3px solid orange;
+  background-color: orange;
+}
+
+.gheDangChon {
+  border: 3px solid green;
+  background-color: green;
+}
+ /* dang xuat */
+ .dangXuat{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+ }

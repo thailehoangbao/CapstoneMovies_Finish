@@ -1,0 +1,12 @@
+.tuyenDung{
+    padding: 100px 0 60px;
+    background-color: #fdfcf0;
+}
+.viTri{
+    background: #f0eedc;
+    border: 2px solid #bcb890;
+    padding: 15px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+}

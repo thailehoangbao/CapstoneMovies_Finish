@@ -4,6 +4,13 @@ import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./../node_modules/jquery/dist/jquery.min.js";
 import "./../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 
+import "react-slick/dist/react-slick.min.js"; 
+import "react-slick/lib/utils/innerSliderUtils";
+import "react-slick/lib/slider";
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

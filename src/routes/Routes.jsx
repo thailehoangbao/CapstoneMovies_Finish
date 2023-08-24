@@ -4,13 +4,19 @@ import { Route } from 'react-router-dom';
 const routes = [
     {
         path: '',
-        element: lazy(() => import('./../pages/HomeTemplates/HomeTemplate')),
+        element: lazy(() => import('./../pages/HomeTemplates')),
         nested: [
-            /**
-             * Em copy các link đường dẫn thư mục bố cục trang HomeTemplate vào đây
-             */
+            { path: "", element: lazy(() => import("../pages/HomeTemplates/LichChieu")), },
+            { path: "rap", element: lazy(() => import("../pages/HomeTemplates/HeThongRap")), },
+            { path: "tuyen-dung", element: lazy(() => import("../pages/HomeTemplates/TuyenDung")), },
+            { path: "chi-tiet/:id", element: lazy(() => import("../pages/HomeTemplates/ChiTietPhim")), },
         ]
     },
+    { path: "dat-ve/:id", element: lazy(() => import("../pages/HomeTemplates/DatVe")), },
+    
+    { path: "dangky", element: lazy(() => import("./../pages/HomeTemplates/DangKy")), },
+    
+    { path: "dangnhap", element: lazy(() => import("./../pages/HomeTemplates/DangNhap")), },
     {
         path: 'admin',
         element: lazy(() => import('./../pages/AdminTemplates/AdminTemplates')),
